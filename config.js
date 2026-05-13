@@ -1,10 +1,10 @@
-window.config = {
+const config = {
   "property": {
     "streetAddress": "23 Macmurchy Ave",
     "city": "King",
     "cityStateZip": "King, Ontario L0J 1C0",
     "heroSubtitle": "Experience the epitome of modern living in this extraordinary 4-bedroom, 5-bathroom Detached. Spanning an impressive 5,000 above grade plus basement sq ft, this meticulously crafted home offers a perfect blend of style, comfort, and functionality. Every corner has been designed with precision, creating a space that not only meets but exceeds the expectations of discerning homeowners. Discover a residence that seamlessly combines sophisticated design with practical living, where every detail tells a story of quality and thoughtful construction.",
-    "backgroundImageUrl": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/istreet-realty-group/marketing-requests/open-house/1778553471963-23 Macmurchy Ave, Kleinburg, ON L0J 1C0, Canada - Rick Rocco Salva-20260512T023436Z-3-001.zip"
+    "backgroundImageUrl": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/TeamUploads/upload-23MacmurchyAve6.jpg"
   },
   "realtor": {
     "fullName": "Rick Roccasalva",
@@ -27,22 +27,19 @@ window.config = {
   "openHouse": {
     "eventDate": "",
     "bundleItems": [
-            {
-                  "icon": "fas fa-home",
-                  "text": "Full Property Listing",
-                  "url": "https://www.realtor.ca/real-estate/29686274/23-macmurchy-avenue-king-nobleton"
-            },
-            {
-                  "icon": "fas fa-vr-cardboard",
-                  "text": "3D Virtual Tour",
-                  "url": "https://drive.google.com/drive/folders/1JKt0pcRwYE2TB0qtQNgwNbPOmRRrNfX6?usp=drive_link"
-            },
-            {
-                  "icon": "fas fa-video",
-                  "text": "Video Tour",
-                  "url": "https://drive.google.com/file/d/1dfi1N2S1SioCpgeT5WdC3cjszqujy_jw/view?usp=drive_link"
-            }
-      ]
+      {
+        "icon": "fas fa-home",
+        "text": "Full Property Listing"
+      },
+      {
+        "icon": "fas fa-vr-cardboard",
+        "text": "3D Virtual Tour"
+      },
+      {
+        "icon": "fas fa-video",
+        "text": "Video Tour"
+      }
+    ]
   },
   "meta": {
     "pageTitlePrefix": "🏡 Rick Roccasalva Open House",
@@ -50,7 +47,7 @@ window.config = {
     "privacyPolicyLink": "https://istreetrealty.ca/privacy-policy/"
   },
   "settings": {
-   "primaryColor": "",
+    "primaryColor": "",
     "secondaryColor": "",
     "accentColor": "",
     "neutralColor": "",
@@ -65,46 +62,91 @@ window.config = {
     ]
   },
   "modalQuestions": [
-  {
-    "id": "q_auto_1750445840887_0",
-    "questionText": "What's your current situation?",
-    "options": [
-      { "value": "I own my home", "text": "I own my home" },
-      { "value": "I rent", "text": "I rent" },
-      { "value": "Live with family/friends", "text": "Live with family/friends" },
-      { "value": "Between homes", "text": "Between homes" }
-    ]
-  },
-  {
-    "id": "q_auto_1750445840887_1",
-    "questionText": "What are you looking to do?",
-    "options": [
-      { "value": "Buy a home", "text": "Buy a home" },
-      { "value": "Sell and buy", "text": "Sell and buy" },
-      { "value": "Rent a place", "text": "Rent a place" },
-      { "value": "Invest in property", "text": "Invest in property" }
-    ]
-  },
-  {
-    "id": "q_auto_1750445840887_2",
-    "questionText": "When are you planning to move?",
-    "options": [
-      { "value": "ASAP", "text": "ASAP" },
-      { "value": "3-6 months", "text": "3-6 months" },
-      { "value": "6-12 months", "text": "6-12 months" },
-      { "value": "12+ months", "text": "12+ months" }
-    ]
-  },
-  {
-    "id": "agent_status",
-    "questionText": "Are you currently exploring homes with a real estate agent?",
-    "options": [
-      { "value": "committed", "text": "Yes, I'm committed to an agent." },
-      { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-      { "value": "gathering_info", "text": "Just gathering information at this stage." }
-    ]
-  }
-],
+    {
+      "id": "q_auto_1750445840887_0",
+      "questionText": "What's your current situation?",
+      "options": [
+        {
+          "value": "I own my home",
+          "text": "I own my home"
+        },
+        {
+          "value": "I rent",
+          "text": "I rent"
+        },
+        {
+          "value": "Live with family/friends",
+          "text": "Live with family/friends"
+        },
+        {
+          "value": "Between homes",
+          "text": "Between homes"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750445840887_1",
+      "questionText": "What are you looking to do?",
+      "options": [
+        {
+          "value": "Buy a home",
+          "text": "Buy a home"
+        },
+        {
+          "value": "Sell and buy",
+          "text": "Sell and buy"
+        },
+        {
+          "value": "Rent a place",
+          "text": "Rent a place"
+        },
+        {
+          "value": "Invest in property",
+          "text": "Invest in property"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750445840887_2",
+      "questionText": "When are you planning to move?",
+      "options": [
+        {
+          "value": "ASAP",
+          "text": "ASAP"
+        },
+        {
+          "value": "3-6 months",
+          "text": "3-6 months"
+        },
+        {
+          "value": "6-12 months",
+          "text": "6-12 months"
+        },
+        {
+          "value": "12+ months",
+          "text": "12+ months"
+        }
+      ]
+    },
+    {
+      "id": "agent_status",
+      "questionText": "Are you currently exploring homes with a real estate agent?",
+      "options": [
+        {
+          "value": "committed",
+          "text": "Yes, I'm committed to an agent."
+        },
+        {
+          "value": "not_committed",
+          "text": "No, I'm not committed to an agent."
+        },
+        {
+          "value": "gathering_info",
+          "text": "Just gathering information at this stage."
+        }
+      ]
+    }
+  ],
   "deploymentInfo": {
     "repoId": "1236184998",
     "repoName": "Open-House-913",
