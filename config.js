@@ -10,18 +10,18 @@ const config = {
     "fullName": "Rick Roccasalva",
     "title": "REALTOR®",
     "phone": "416 616 9369",
-    "email": "rick@istreetrealty.ca",
+    "email": "rick@roccasalva.co",
     "photoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761767184484-biorick.jpg",
-    "bio": "At iStreet Realty Group, we are built on integrity, insight, and innovation. We combine decades of real estate expertise with cutting-edge technology to deliver unmatched support, transparency, and results for our clients. With over 40 years of hands-on real estate experience and extensive corporate backgrounds, our managing partners provide a balanced and strategic approach to Residential, Commercial, and Investment properties. We prioritize clear communication and use the latest market insights to guide every client toward success—whether buying, selling, or investing. At iStreet Realty Inc., we’re more than real estate experts—we’re your trusted partner in building your future.",
+    "bio": "At Roccasalva & Co, we are built on integrity, insight, and innovation. We combine decades of real estate expertise with cutting-edge technology to deliver unmatched support, transparency, and results for our clients. With over 40 years of hands-on real estate experience and extensive corporate backgrounds, our managing partners provide a balanced and strategic approach to Residential, Commercial, and Investment properties. We prioritize clear communication and use the latest market insights to guide every client toward success—whether buying, selling, or investing. At Roccasalva & Co., we’re more than real estate experts—we’re your trusted partner in building your future.",
     "social": {
       "facebook": "https://www.facebook.com/iStreetRealty",
-      "instagram": "https://www.instagram.com/istreetrealtygroup/",
+      "instagram": "https://www.instagram.com/roccasalva.co/",
       "website": "https://www.homelifepartnersrealty.com/"
     }
   },
   "brokerage": {
     "name": "iStreet Realty Group - HomeLife Partners",
-    "logoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-Untitled-design-2.jpg",
+    "logoUrl": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/TeamUploads/upload-image(60).png",
     "address": "3850 Steeles Avenue W. Unit 6, Woodbridge, Ontario"
   },
   "openHouse": {
