@@ -152,7 +152,7 @@ const config = {
     "repoName": "Open-House-913",
     "crmLeadParsingEmail": "rick.roccasalva@followupboss.me",
     "tag": "Open House 23 Macmurchy Ave",
-    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/KxSrsX5ZH2ZttFjyt9hW/webhook-trigger/723v7Nh8JC60wCn3aRmV",
+    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/KyeQTgnX03giMLGAsQCM/webhook-trigger/e68e05b8-4715-429e-8bda-a60fcd2ec132",
     "sgApiKey": "api_78cab2d8c3a43b799acf6a8339343720"
   }
 };
